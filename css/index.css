@@ -1,5 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
 ul {
     list-style-type: none;
+}
+
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+li{
+    border: 1px solid #6278B0;
+    margin-bottom: 10px;
 }
 
 .crossed{
@@ -7,5 +23,5 @@ ul {
 }
 
 .neutral{
-    
+    text-decoration: none;
 }

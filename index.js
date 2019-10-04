@@ -3,7 +3,6 @@ let cont = 0;
 $("#btnSubmit").on("click", function(e){
     e.preventDefault();
     let name = $("#textInput").val();
-    console.log(name);
     cont++;
     $("#shopList").append(`<li class="listItem" id="listItem_${cont}">
                                 <p class="neutral" id="itemDescription_${cont}">
